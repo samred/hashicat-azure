@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "test" {
-  name     = "my-resources"
-  location = "West Europe"
+  name     = "samgv-workshop"
+  location = "eastus2"
 }
 
 module "network" {
